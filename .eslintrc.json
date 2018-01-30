@@ -1,0 +1,22 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "globals": {
+    "process": false
+  },
+  "rules": {
+    "indent": "off",
+    "linebreak-style": ["error", "windows"],
+    "quotes": ["error", "double"],
+    "semi": ["error", "always"],
+    "no-console": "off",
+    "no-process-env": "off"
+  }
+}

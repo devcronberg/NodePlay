@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src -d dist",
+    "lint": "eslint ./src"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +14,10 @@
     "minimist": "^1.2.0",
     "readline-sync": "^1.4.7",
     "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.16.0"
   }
 }
